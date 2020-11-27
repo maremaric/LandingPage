@@ -156,6 +156,14 @@ window.onscroll = function() {
             document.querySelector("header").classList.remove("fixed");
         };
     };
+
+    // Progress bar
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+    
 };
 
 
