@@ -163,7 +163,7 @@ window.onscroll = function() {
     
     let progressHeight = (window.pageYOffset / totalHeight) * 100;
     progress.style.height = progressHeight + "%";
-    
+
 };
 
 
@@ -189,4 +189,22 @@ const hamBurger = document.querySelector(".ham-burger");
 
 hamBurger.addEventListener("click", function() {
     document.querySelector(".navbar").classList.toggle("show");
+});
+
+// Scroll reveal
+
+window.sr = ScrollReveal();
+
+sr.reveal('.animate-right', {
+    origin: 'right',
+    duration: 1500,
+    distance: '25rem',
+    delay: 600
+});
+
+sr.reveal('.animate-left', {
+    origin: 'left',
+    duration: 1500,
+    distance: '25rem',
+    delay: 600
 });

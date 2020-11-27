@@ -454,7 +454,6 @@ header .navbar ul li a.active::before {
 }
 
 .skills .img {
-    background-color: blue;
     flex: 0 0 50%;
     max-width: 50%;
 }
