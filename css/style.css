@@ -465,6 +465,8 @@ header .navbar ul li a.active::before {
 .skills .img img {
     width: 100%;
     display: block;
+    border: 5px solid white;
+    box-shadow: 0 0 10px #999999;
 }
 
 .skills .skills-content .section-title p {
