@@ -687,6 +687,8 @@ header .navbar ul li a.active::before {
     max-width: 90%;
     max-height: 80%;
     display: block;
+    margin-top: 180px;  /*dodato*/
+    margin-left: 20px;  /*dodato*/
 }
 
 
