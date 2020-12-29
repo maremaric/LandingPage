@@ -687,8 +687,6 @@ header .navbar ul li a.active::before {
     max-width: 90%;
     max-height: 80%;
     display: block;
-    margin-top: 180px;  /*dodato*/
-    margin-left: 20px;  /*dodato*/
 }
 
 
@@ -1204,6 +1202,10 @@ footer .social a:hover {
     }
     .testimonials .testimonials-content .testi-slider .slide {
         flex-wrap: wrap;
+    }
+    .lightbox img {
+        margin-top: 180px;
+        margin-left: 20px;
     }
 }
 
